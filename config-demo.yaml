@@ -1,0 +1,48 @@
+#---------------------------------------------------#
+
+
+# (HTTP and SOCKS5 in one port)
+mixed-port: 7890
+# RESTful API for clash
+external-controller: 127.0.0.1:9090
+allow-lan: false
+mode: rule
+log-level: warning
+
+proxies:
+  - 
+proxy-groups:
+-
+  name: '🚀 代理选择'
+  type: select
+  proxies:
+    - 
+    -
+
+
+-
+  name: '🚫 广告拦截'
+  type: select
+  proxies:
+    - REJECT
+    - DIRECT
+
+rule-providers:
+  CustomProxy:
+    type: http
+    behavior: classical
+    path: ./Rules/CustomProxy.yaml
+    interval: 259200
+
+  Block:
+    type: http
+    behavior: classical
+    path: ./Rules/CustomBlock.yaml
+    interval: 259200
+
+rules:
+  - DOMAIN-SUFFIX,gjfzpt.cn,REJECT
+  - SRC-IP-CIDR,219.143.187.136/32,REJECT
+  - RULE-SET,CustomProxy,🚀 代理选择
+  - RULE-SET,Block,🚫 广告拦截
+  - MATCH,DIRECT
