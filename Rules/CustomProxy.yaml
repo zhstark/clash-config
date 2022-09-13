@@ -41,6 +41,7 @@ payload:
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,techoverflow.net
   - DOMAIN-SUFFIX,wikipedia.org
+  - DOMAIN-SUFFIX,gravatar.com
 
 # Youtube
   - DOMAIN-SUFFIX,ggpht.cn
