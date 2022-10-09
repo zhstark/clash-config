@@ -42,6 +42,21 @@ payload:
   - DOMAIN-SUFFIX,techoverflow.net
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,gravatar.com
+  - DOMAIN-SUFFIX,pixiv.com
+  - DOMAIN-SUFFIX,pixiv.org
+  - DOMAIN-SUFFIX,pixiv.net
+  - DOMAIN-SUFFIX,pximg.net
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,yhdmjx.com
+  - DOMAIN-SUFFIX,wikimedia.org
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,netflav.com
+  - DOMAIN-SUFFIX,miejump.com
+  - DOMAIN-SUFFIX,mielink.com
+  - DOMAIN-SUFFIX,miejump.cc
+  - DOMAIN-SUFFIX,mielink.cc
+  - DOMAIN-SUFFIX,z-lib.org
+  - DOMAIN-SUFFIX,artstation.com
 
 # Youtube
   - DOMAIN-SUFFIX,ggpht.cn
