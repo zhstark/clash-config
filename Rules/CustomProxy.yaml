@@ -57,6 +57,12 @@ payload:
   - DOMAIN-SUFFIX,mielink.cc
   - DOMAIN-SUFFIX,z-lib.org
   - DOMAIN-SUFFIX,artstation.com
+  - DOMAIN-SUFFIX,rolex.com
+  - DOMAIN-SUFFIX,nytimes.com
+  - DOMAIN-SUFFIX,picacomic.com
+  - DOMAIN-SUFFIX,wikawika.xyz
+  - DOMAIN-SUFFIX,archive.org
+  - DOMAIN-SUFFIX,comet.ml
 
 # Youtube
   - DOMAIN-SUFFIX,ggpht.cn
